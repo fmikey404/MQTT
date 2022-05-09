@@ -12,7 +12,7 @@ def subs(top, msg):
 red = network.WLAN(network.STA_IF)
 if not red.isconnected():
     red.active(True)
-    red.connect('Los Fuquene', '#*Chunt4m3*#')
+    red.connect('fuken404', '12345678')
     print("Contectado a la red")
 else:
     print("Ya se encontraba conectado")
@@ -32,4 +32,4 @@ while True:
         num = str(num)
         cliente.publish(topic, num)
     except:
-        print("Algo falló ñero")
+        print("Algo falló")
