@@ -29,7 +29,7 @@ def subs(top, msg):
 wifi = network.WLAN(network.STA_IF)
 if not wifi.isconnected():
     wifi.active(True)
-    wifi.connect('Los Fuquene', '#*Chunt4m3*#')
+    wifi.connect('fuken404', '12345678')
     print("Contectado a la red")
 else:
     print("Ya se encontraba conectado")
